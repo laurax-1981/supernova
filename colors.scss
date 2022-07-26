@@ -509,17 +509,10 @@ $colorPalettesCurrentCodeWhite500: #ffffff;
 $colorPalettesCurrentCodeWhiteContrast500: #000000de;    
 $color09StatesPrimaryHover: #0087c80a;    
 $color09StatesPrimaryFocused: #0087c81f;    
-/* Default page background color */
-$colorGlobalBackground: #ffffff;    
-/* Primary text
-Body copy
-Hover text color for $text-secondary */
-$colorGlobalTextPrimary: #525556;    
-/* Disabled text color */
-$colorGlobalTextDisabled: #cfd1d3;    
-/* Primary icons */
-$colorGlobalIconPrimary: #525556;    
-/* Disabled icons */
-$colorGlobalIconDisabled: #a0a5a9;    
-/* Container color on $layer-01 */
-$colorLayerLayer02: #ffffff;    
+
+$colorGlobalBackground: #ffffff;    /* Default page background color */
+$colorGlobalTextPrimary: #525556;   /* Primary text, body copy, hover text color for $text-secondary */
+$colorGlobalTextDisabled: #cfd1d3;  /* Disabled text color */
+$colorGlobalIconPrimary: #525556;   /* Primary icons */
+$colorGlobalIconDisabled: #a0a5a9;  /* Disabled icons */
+$colorLayerLayer02: #ffffff;        /* Container color on $layer-01 */
