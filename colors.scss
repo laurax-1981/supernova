@@ -1,81 +1,525 @@
-    /* Input text (text field) */
-    $colorCorporateBlack: #000000;    
-    /* Body text, secondary action icon */
-    $colorCorporateDarkGrey: #525556;    
-    /* Labels (text field)
-    Inactive text */
-    $colorCorporateGrey: #a0a5a9;    
-    /* Stroke
-    Disabled button
-    Disabled filters */
-    $colorCorporateLightGrey: #cfd1d3;    
-    /* Headline, title, subtitle
-    Toast bar, snack bar */
-    $colorCorporateSicpaBlue: #033b5a;    
-    /* Error (label, KPI, icon, ...) */
-    $colorCorporateRedPink: #e3004a;    
-    /* Corporate color */
-    $colorCorporateMentholBlue: #6a9f9c;    
-    /* Tab bar
-    Screen background
-    Text field container */
-    $colorCorporateCloudGrey: #f6f6f7;    
-    /* Corporate color */
-    $colorCorporateBlueGrey: #c5d3d7;    
-    /* Navigation bar background */
-    $colorCorporateDarkBlue: #072f47;    
-    /* Corporate color */
-    $colorCorporateMediumBlue: #084466;    
-    /* Primary button
-    Action text
-    Action link
-    Primary action icon
-    Focused text field
-    Selected tab */
-    $colorCorporatePrimaryBlue: #0087c8;    
-    /* Alert (label, KPI, icon, ...) */
-    $colorCorporateOrange: #f38a00;    
-    /* Valid (label, KPI, icon, ...) */
-    $colorCorporateGreen: #77bc1f;    
-    /* Corporate color */
-    $colorCorporateBeige: #c9b981;    
-    /* Corporate color */
-    $colorCorporateDarkBrown: #494037;    
-    $color00Primary900: #043147;    
-    $color00Primary800: #184c65;    
-    $color00Primary700: #275f7b;    
-    $color00Primary600: #367392;    
-    $color00Primary500: #4482a4;    
-    $color00Primary400: #5f95b5;    
-    $color00Primary300: #79a9c7;    
-    $color00Primary200: #99c3dd;    
-    $color00Primary100: #b7ddf3;    
-    $color00Primary50: #d8f3ff;    
-    $color01Secondary900: #005592;    
-    $color01Secondary800: #0074b4;    
-    $color01Secondary700: #0087c8;    
-    $color01Secondary600: #0598dc;    
-    $color01Secondary500: #09a6ea;    
-    $color01Secondary400: #2cb3ed;    
-    $color01Secondary300: #50c0ef;    
-    $color01Secondary200: #81d2f4;    
-    $color01Secondary100: #b2e4f9;    
-    $color01Secondary50: #e1f5fd;    
-    $color03OnPrimaryMediumEmphasis: #ffffffbd;    
-    $color03OnPrimaryDisabled: #ffffff61;    
-    $color04OnSecondaryHighEmphasis: #ffffff;    
-    $color04OnSecondaryMediumEmphasis: #ffffffbd;    
-    $color04OnSecondaryDisabled: #ffffff61;    
-    $color04BackgroundDefault: #f6f6f7de;    
-    $color05OnBackgroundDefault: #525556;    
-    $color06SurfaceDefault: #ffffff;    
-    $color07OnSurfaceHighEmphasis: #000000de;    
-    $color07OnSurfaceMediumEmphasis: #00000099;    
-    $color07OnSurfaceDisabled: #00000061;    
-    $color08SemanticError: #e3004a;    
-    $color08SemanticOnError: #ffffff;    
-    $color03OnPrimaryHighEmphasis: #ffffff;    
-    $color07OnSurfaceOutline: #0000001f;    
-    $color10StatesBlackHover: #0000000a;    
-    $color10StatesBlackFocused: #0000001f;    
-    $color10StatesBlackPressed: #0000001a;    
+/* Input text (text field) */
+$colorCorporateBlack: #000000;    
+/* Body text, secondary action icon */
+$colorCorporateDarkGrey: #525556;    
+/* Labels (text field)
+Inactive text */
+$colorCorporateGrey: #a0a5a9;    
+/* Stroke
+Disabled button
+Disabled filters */
+$colorCorporateLightGrey: #cfd1d3;    
+/* Headline, title, subtitle
+Toast bar, snack bar */
+$colorCorporateSicpaBlue: #033b5a;    
+/* Error (label, KPI, icon, ...) */
+$colorCorporateRedPink: #e3004a;    
+/* Corporate color */
+$colorCorporateMentholBlue: #6a9f9c;    
+/* Tab bar
+Screen background
+Text field container */
+$colorCorporateCloudGrey: #f6f6f7;    
+/* Corporate color */
+$colorCorporateBlueGrey: #c5d3d7;    
+/* Navigation bar background */
+$colorCorporateDarkBlue: #072f47;    
+/* Corporate color */
+$colorCorporateMediumBlue: #084466;    
+/* Primary button
+Action text
+Action link
+Primary action icon
+Focused text field
+Selected tab */
+$colorCorporatePrimaryBlue: #0087c8;    
+/* Alert (label, KPI, icon, ...) */
+$colorCorporateOrange: #f38a00;    
+/* Valid (label, KPI, icon, ...) */
+$colorCorporateGreen: #77bc1f;    
+/* Corporate color */
+$colorCorporateBeige: #c9b981;    
+/* Corporate color */
+$colorCorporateDarkBrown: #494037;    
+$color00Primary900: #043147;    
+$color00Primary800: #184c65;    
+$color00Primary700: #275f7b;    
+$color00Primary600: #367392;    
+$color00Primary500: #4482a4;    
+$color00Primary400: #5f95b5;    
+$color00Primary300: #79a9c7;    
+$color00Primary200: #99c3dd;    
+$color00Primary100: #b7ddf3;    
+$color00Primary50: #d8f3ff;    
+$color01Secondary900: #005592;    
+$color01Secondary800: #0074b4;    
+$color01Secondary700: #0087c8;    
+$color01Secondary600: #0598dc;    
+$color01Secondary500: #09a6ea;    
+$color01Secondary400: #2cb3ed;    
+$color01Secondary300: #50c0ef;    
+$color01Secondary200: #81d2f4;    
+$color01Secondary100: #b2e4f9;    
+$color01Secondary50: #e1f5fd;    
+$color03OnPrimaryMediumEmphasis: #ffffffbd;    
+$color03OnPrimaryDisabled: #ffffff61;    
+$color04OnSecondaryHighEmphasis: #ffffff;    
+$color04OnSecondaryMediumEmphasis: #ffffffbd;    
+$color04OnSecondaryDisabled: #ffffff61;    
+$color04BackgroundDefault: #f6f6f7de;    
+$color05OnBackgroundDefault: #525556;    
+$color06SurfaceDefault: #ffffff;    
+$color07OnSurfaceHighEmphasis: #000000de;    
+$color07OnSurfaceMediumEmphasis: #00000099;    
+$color07OnSurfaceDisabled: #00000061;    
+$color08SemanticError: #e3004a;    
+$color08SemanticOnError: #ffffff;    
+$color03OnPrimaryHighEmphasis: #ffffff;    
+$color07OnSurfaceOutline: #0000001f;    
+$color10StatesBlackHover: #0000000a;    
+$color10StatesBlackFocused: #0000001f;    
+$color10StatesBlackPressed: #0000001a;    
+$color04BackgroundOverlay: #00000052;    
+$color10StatesBlackResting: #0000000a;    
+$color10StatesBlackSelected: #00000014;    
+$colorSurfaceOverlay: #21212114;    
+$colorPalettesCurrentCodeBlack500: #000000;    
+$colorPalettesCurrentCodeBlack004: #00000000;    
+$colorPalettesCurrentCodeBlack06: #00000099;    
+$colorPalettesCurrentCodeBlack012: #0000001f;    
+$colorPalettesCurrentCodeBlack026: #00000042;    
+$colorPalettesCurrentCodeBlack038: #00000061;    
+$colorPalettesCurrentCodeBlack054: #0000008a;    
+$colorPalettesCurrentCodeBlack087: #000000de;    
+$colorPalettesCurrentCodeBlackContrast500: #ffffff;    
+$colorPalettesCurrentCodeBlue50: #e0f1f8;    
+$colorPalettesCurrentCodeBlue100: #b3dbef;    
+$colorPalettesCurrentCodeBlue200: #80c3e4;    
+$colorPalettesCurrentCodeBlue300: #4dabd9;    
+$colorPalettesCurrentCodeBlue400: #2699d0;    
+$colorPalettesCurrentCodeBlue500: #0087c8;    
+$colorPalettesCurrentCodeBlue600: #007fc2;    
+$colorPalettesCurrentCodeBlue700: #0074bb;    
+$colorPalettesCurrentCodeBlue800: #006ab4;    
+$colorPalettesCurrentCodeBlue900: #0057a7;    
+$colorPalettesCurrentCodeBlueA100: #d1e6ff;    
+$colorPalettesCurrentCodeBlueA200: #9ecaff;    
+$colorPalettesCurrentCodeBlueA400: #6baeff;    
+$colorPalettesCurrentCodeBlueA700: #52a1ff;    
+$colorPalettesCurrentCodeBlueContrast50: #000000;    
+$colorPalettesCurrentCodeBlueContrast100: #000000;    
+$colorPalettesCurrentCodeBlueContrast200: #000000;    
+$colorPalettesCurrentCodeBlueContrast300: #000000;    
+$colorPalettesCurrentCodeBlueContrast400: #ffffff;    
+$colorPalettesCurrentCodeBlueContrast500: #ffffff;    
+$colorPalettesCurrentCodeBlueContrast600: #ffffff;    
+$colorPalettesCurrentCodeBlueContrast700: #ffffff;    
+$colorPalettesCurrentCodeBlueContrast800: #ffffff;    
+$colorPalettesCurrentCodeBlueContrast900: #ffffff;    
+$colorPalettesCurrentCodeBlueContrastA100: #000000;    
+$colorPalettesCurrentCodeBlueContrastA200: #000000;    
+$colorPalettesCurrentCodeBlueContrastA400: #000000;    
+$colorPalettesCurrentCodeBlueContrastA700: #000000;    
+$colorPalettesCurrentCodeBlueGrey50: #f8fafa;    
+$colorPalettesCurrentCodeBlueGrey100: #eef2f3;    
+$colorPalettesCurrentCodeBlueGrey200: #e2e9eb;    
+$colorPalettesCurrentCodeBlueGrey300: #d6e0e3;    
+$colorPalettesCurrentCodeBlueGrey400: #cedadd;    
+$colorPalettesCurrentCodeBlueGrey500: #c5d3d7;    
+$colorPalettesCurrentCodeBlueGrey600: #bfced3;    
+$colorPalettesCurrentCodeBlueGrey700: #b8c8cd;    
+$colorPalettesCurrentCodeBlueGrey800: #b0c2c7;    
+$colorPalettesCurrentCodeBlueGrey900: #a3b7be;    
+$colorPalettesCurrentCodeBlueGreyA100: #ffffff;    
+$colorPalettesCurrentCodeBlueGreyA200: #ffffff;    
+$colorPalettesCurrentCodeBlueGreyA400: #ffffff;    
+$colorPalettesCurrentCodeBlueGreyA700: #e8f9ff;    
+$colorPalettesCurrentCodeBlueGreyContrast50: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast100: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast200: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast300: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast400: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast500: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast600: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast700: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast800: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrast900: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrastA100: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrastA200: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrastA400: #000000;    
+$colorPalettesCurrentCodeBlueGreyContrastA700: #000000;    
+$colorPalettesCurrentCodeCloudGrey50: #fefefe;    
+$colorPalettesCurrentCodeCloudGrey100: #fcfcfd;    
+$colorPalettesCurrentCodeCloudGrey200: #fbfbfb;    
+$colorPalettesCurrentCodeCloudGrey300: #f9f9f9;    
+$colorPalettesCurrentCodeCloudGrey400: #f7f7f8;    
+$colorPalettesCurrentCodeCloudGrey500: #f6f6f7;    
+$colorPalettesCurrentCodeCloudGrey600: #f5f5f6;    
+$colorPalettesCurrentCodeCloudGrey700: #f3f3f5;    
+$colorPalettesCurrentCodeCloudGrey800: #f2f2f3;    
+$colorPalettesCurrentCodeCloudGrey900: #efeff1;    
+$colorPalettesCurrentCodeCloudGreyA100: #ffffff;    
+$colorPalettesCurrentCodeCloudGrey200: #ffffff;    
+$colorPalettesCurrentCodeCloudGreyA400: #ffffff;    
+$colorPalettesCurrentCodeCloudGreyA700: #ffffff;    
+$colorPalettesCurrentCodeCloudGreyContrast50: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast100: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast200: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast300: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast400: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast500: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast600: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast700: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast800: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrast900: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrastA100: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrastA200: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrastA400: #000000;    
+$colorPalettesCurrentCodeCloudGreyContrastA700: #000000;    
+$colorPalettesCurrentCodeDarkBlue50: #e1e6e9;    
+$colorPalettesCurrentCodeDarkBlue100: #b5c1c8;    
+$colorPalettesCurrentCodeDarkBlue200: #8397a3;    
+$colorPalettesCurrentCodeDarkBlue300: #516d7e;    
+$colorPalettesCurrentCodeDarkBlue400: #2c4e63;    
+$colorPalettesCurrentCodeDarkBlue500: #072f47;    
+$colorPalettesCurrentCodeDarkBlue600: #062a40;    
+$colorPalettesCurrentCodeDarkBlue700: #052337;    
+$colorPalettesCurrentCodeDarkBlue800: #041d2f;    
+$colorPalettesCurrentCodeDarkBlue900: #021220;    
+$colorPalettesCurrentCodeDarkBlueA100: #5da1ff;    
+$colorPalettesCurrentCodeDarkBlueA200: #2a83ff;    
+$colorPalettesCurrentCodeDarkBlueA400: #0067f6;    
+$colorPalettesCurrentCodeDarkBlueA700: #005ddc;    
+$colorPalettesCurrentCodeDarkBlueContrast50: #000000;    
+$colorPalettesCurrentCodeDarkBlueContrast100: #000000;    
+$colorPalettesCurrentCodeDarkBlueContrast200: #000000;    
+$colorPalettesCurrentCodeDarkBlueContrast300: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrast400: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrast500: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrast600: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrast700: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrast800: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrast900: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrastA100: #000000;    
+$colorPalettesCurrentCodeDarkBlueContrastA200: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrastA400: #ffffff;    
+$colorPalettesCurrentCodeDarkBlueContrastA700: #ffffff;    
+$colorPalettesCurrentCodeDarkBrown50: #e9e8e7;    
+$colorPalettesCurrentCodeDarkBrown100: #c8c6c3;    
+$colorPalettesCurrentCodeDarkBrown200: #a4a09b;    
+$colorPalettesCurrentCodeDarkBrown300: #807973;    
+$colorPalettesCurrentCodeDarkBrown400: #645d55;    
+$colorPalettesCurrentCodeDarkBrownDarkBrown: #494037;    
+$colorPalettesCurrentCodeDarkBrown600: #423a31;    
+$colorPalettesCurrentCodeDarkBrown700: #39322a;    
+$colorPalettesCurrentCodeDarkBrown800: #312a23;    
+$colorPalettesCurrentCodeDarkBrown900: #211c16;    
+$colorPalettesCurrentCodeDarkBrownA100: #ffbb67;    
+$colorPalettesCurrentCodeDarkBrownA200: #ffa534;    
+$colorPalettesCurrentCodeDarkBrownA400: #ff8e01;    
+$colorPalettesCurrentCodeDarkBrownA700: #e68000;    
+$colorPalettesCurrentCodeDarkBrownBeige50: #f9f7f0;    
+$colorPalettesCurrentCodeDarkBrownBeige100: #efead9;    
+$colorPalettesCurrentCodeDarkBrownBeige200: #e4dcc0;    
+$colorPalettesCurrentCodeDarkBrownBeige300: #d9cea7;    
+$colorPalettesCurrentCodeDarkBrownBeige400: #d1c494;    
+$colorPalettesCurrentCodeDarkBrownBeige500: #c9b981;    
+$colorPalettesCurrentCodeDarkBrownBeige700: #bcaa6e;    
+$colorPalettesCurrentCodeDarkBrownBeige800: #b5a264;    
+$colorPalettesCurrentCodeDarkBrownBeige900: #a99351;    
+$colorPalettesCurrentCodeDarkBrownBeigeA100: #ffffff;    
+$colorPalettesCurrentCodeDarkBrownBeigeA200: #fff5d7;    
+$colorPalettesCurrentCodeDarkBrownBeigeA400: #ffe8a4;    
+$colorPalettesCurrentCodeDarkBrownBeigeA700: #ffe18b;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast50: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast100: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast200: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast300: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast400: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast500: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast600: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast700: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast800: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrast900: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrastA100: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrastA200: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrastA400: #000000;    
+$colorPalettesCurrentCodeDarkBrownBeigeContrastA700: #000000;    
+$colorPalettesCurrentCodeDarkBrownContrast50: #000000;    
+$colorPalettesCurrentCodeDarkBrownContrast100: #000000;    
+$colorPalettesCurrentCodeDarkBrownContrast200: #000000;    
+$colorPalettesCurrentCodeDarkBrownContrast300: #ffffff;    
+$colorPalettesCurrentCodeDarkBrownContrast400: #ffffff;    
+$colorPalettesCurrentCodeDarkBrownContrast500: #ffffff;    
+$colorPalettesCurrentCodeDarkBrownContrast600: #ffffff;    
+$colorPalettesCurrentCodeDarkBrownContrast700: #ffffff;    
+$colorPalettesCurrentCodeDarkBrownContrast800: #ffffff;    
+$colorPalettesCurrentCodeDarkBrownContrast900: #ffffff;    
+$colorPalettesCurrentCodeDarkBrownContrastA100: #000000;    
+$colorPalettesCurrentCodeDarkBrownContrastA200: #000000;    
+$colorPalettesCurrentCodeDarkBrownContrastA400: #000000;    
+$colorPalettesCurrentCodeDarkBrownContrastA700: #000000;    
+$colorPalettesCurrentCodeDarkGrey50: #eaebeb;    
+$colorPalettesCurrentCodeDarkGrey100: #cbcccc;    
+$colorPalettesCurrentCodeDarkGrey200: #a9aaab;    
+$colorPalettesCurrentCodeDarkGrey300: #868889;    
+$colorPalettesCurrentCodeDarkGrey400: #6c6f6f;    
+$colorPalettesCurrentCodeDarkGrey500: #525556;    
+$colorPalettesCurrentCodeDarkGrey600: #4b4e4f;    
+$colorPalettesCurrentCodeDarkGrey700: #414445;    
+$colorPalettesCurrentCodeDarkGrey800: #383b3c;    
+$colorPalettesCurrentCodeDarkGrey900: #282a2b;    
+$colorPalettesCurrentCodeDarkGreyA100: #85d0f5;    
+$colorPalettesCurrentCodeDarkGreyA200: #56bef2;    
+$colorPalettesCurrentCodeDarkGreyA400: #15b1ff;    
+$colorPalettesCurrentCodeDarkGreyA700: #00a7fb;    
+$colorPalettesCurrentCodeDarkGreyContrast50: #000000;    
+$colorPalettesCurrentCodeDarkGreyContrast100: #000000;    
+$colorPalettesCurrentCodeDarkGreyContrast200: #000000;    
+$colorPalettesCurrentCodeDarkGreyContrast300: #000000;    
+$colorPalettesCurrentCodeDarkGreyContrast400: #ffffff;    
+$colorPalettesCurrentCodeDarkGreyContrast500: #ffffff;    
+$colorPalettesCurrentCodeDarkGreyContrast600: #ffffff;    
+$colorPalettesCurrentCodeDarkGreyContrast700: #ffffff;    
+$colorPalettesCurrentCodeDarkGreyContrast800: #ffffff;    
+$colorPalettesCurrentCodeDarkGreyContrast900: #ffffff;    
+$colorPalettesCurrentCodeDarkGreyContrastA100: #000000;    
+$colorPalettesCurrentCodeDarkGreyContrastA200: #000000;    
+$colorPalettesCurrentCodeDarkGreyContrastA400: #000000;    
+$colorPalettesCurrentCodeDarkGreyContrastA700: #ffffff;    
+$colorPalettesCurrentCodeDefault50: #f4f4f5;    
+$colorPalettesCurrentCodeDefault100: #e3e4e5;    
+$colorPalettesCurrentCodeDefault200: #d0d2d4;    
+$colorPalettesCurrentCodeDefault300: #bdc0c3;    
+$colorPalettesCurrentCodeDefault400: #aeb3b6;    
+$colorPalettesCurrentCodeDefault500: #a0a5a9;    
+$colorPalettesCurrentCodeDefault600: #989da2;    
+$colorPalettesCurrentCodeDefault700: #8e9398;    
+$colorPalettesCurrentCodeDefault800: #848a8f;    
+$colorPalettesCurrentCodeDefault900: #73797e;    
+$colorPalettesCurrentCodeDefaultA100: #ffffff;    
+$colorPalettesCurrentCodeDefaultA200: #d1e6fb;    
+$colorPalettesCurrentCodeDefaultA400: #9bcdff;    
+$colorPalettesCurrentCodeDefaultA700: #81c0ff;    
+$colorPalettesCurrentCodeDefaultContrast50: #000000;    
+$colorPalettesCurrentCodeDefaultContrast100: #000000;    
+$colorPalettesCurrentCodeDefaultContrast200: #000000;    
+$colorPalettesCurrentCodeDefaultContrast300: #000000;    
+$colorPalettesCurrentCodeDefaultContrast500: #000000;    
+$colorPalettesCurrentCodeDefaultContrast600: #000000;    
+$colorPalettesCurrentCodeDefaultContrast700: #000000;    
+$colorPalettesCurrentCodeDefaultContrast800: #000000;    
+$colorPalettesCurrentCodeDefaultContrast900: #ffffff;    
+$colorPalettesCurrentCodeDefaultContrastA100: #000000;    
+$colorPalettesCurrentCodeDefaultContrastA200: #000000;    
+$colorPalettesCurrentCodeDefaultContrastA400: #000000;    
+$colorPalettesCurrentCodeDefaultContrastA700: #000000;    
+$colorPalettesCurrentCodeGreen50: #eff7e4;    
+$colorPalettesCurrentCodeGreen100: #d6ebbc;    
+$colorPalettesCurrentCodeGreen200: #bbde8f;    
+$colorPalettesCurrentCodeGreen300: #a0d062;    
+$colorPalettesCurrentCodeGreen400: #8bc641;    
+$colorPalettesCurrentCodeGreen500: #77bc1f;    
+$colorPalettesCurrentCodeGreen600: #6fb61b;    
+$colorPalettesCurrentCodeGreen700: #64ad17;    
+$colorPalettesCurrentCodeGreen800: #5aa512;    
+$colorPalettesCurrentCodeGreen900: #47970a;    
+$colorPalettesCurrentCodeGreenA100: #dbffc4;    
+$colorPalettesCurrentCodeGreenA200: #bcff91;    
+$colorPalettesCurrentCodeGreenA400: #9cff5e;    
+$colorPalettesCurrentCodeGreenA700: #8dff45;    
+$colorPalettesCurrentCodeGreenContrast50: #000000;    
+$colorPalettesCurrentCodeGreenContrast200: #000000;    
+$colorPalettesCurrentCodeGreenContrast300: #000000;    
+$colorPalettesCurrentCodeGreenContrast400: #000000;    
+$colorPalettesCurrentCodeGreenContrast500: #ffffff;    
+$colorPalettesCurrentCodeGreenContrast600: #000000;    
+$colorPalettesCurrentCodeGreenContrast700: #000000;    
+$colorPalettesCurrentCodeGreenContrast800: #ffffff;    
+$colorPalettesCurrentCodeGreenContrast900: #ffffff;    
+$colorPalettesCurrentCodeGreenContrastA100: #000000;    
+$colorPalettesCurrentCodeGreenContrastA200: #000000;    
+$colorPalettesCurrentCodeGreenContrastA400: #000000;    
+$colorPalettesCurrentCodeGreenContrastA700: #000000;    
+$colorPalettesCurrentCodeLightGrey50: #f9f9fa;    
+$colorPalettesCurrentCodeLightGrey100: #f1f1f2;    
+$colorPalettesCurrentCodeLightGrey200: #e7e8e9;    
+$colorPalettesCurrentCodeLightGrey300: #dddfe0;    
+$colorPalettesCurrentCodeLightGrey400: #d6d8da;    
+$colorPalettesCurrentCodeLightGrey500: #cfd1d3;    
+$colorPalettesCurrentCodeLightGrey600: #caccce;    
+$colorPalettesCurrentCodeLightGrey700: #c3c6c8;    
+$colorPalettesCurrentCodeLightGrey800: #bdc0c2;    
+$colorPalettesCurrentCodeLightGrey900: #b2b5b7;    
+$colorPalettesCurrentCodeLightGreyA100: #ffffff;    
+$colorPalettesCurrentCodeLightGreyA200: #ffffff;    
+$colorPalettesCurrentCodeLightGreyA400: #ffffff;    
+$colorPalettesCurrentCodeLightGreyA700: #f0f7ff;    
+$colorPalettesCurrentCodeLightGreyContrast50: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast100: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast200: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast300: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast400: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast500: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast600: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast700: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast800: #000000;    
+$colorPalettesCurrentCodeLightGreyContrast900: #000000;    
+$colorPalettesCurrentCodeLightGreyContrastA100: #000000;    
+$colorPalettesCurrentCodeLightGreyContrastA200: #000000;    
+$colorPalettesCurrentCodeLightGreyContrastA400: #000000;    
+$colorPalettesCurrentCodeLightGreyContrastA700: #000000;    
+$colorPalettesCurrentCodeMediumBlue50: #e1e9ed;    
+$colorPalettesCurrentCodeMediumBlue100: #b5c7d1;    
+$colorPalettesCurrentCodeMediumBlue200: #84a2b3;    
+$colorPalettesCurrentCodeMediumBlue300: #527c94;    
+$colorPalettesCurrentCodeMediumBlue400: #2d607d;    
+$colorPalettesCurrentCodeMediumBlue500: #084466;    
+$colorPalettesCurrentCodeMediumBlue600: #073e5e;    
+$colorPalettesCurrentCodeMediumBlue700: #063553;    
+$colorPalettesCurrentCodeMediumBlue800: #042d49;    
+$colorPalettesCurrentCodeMediumBlue900: #021f38;    
+$colorPalettesCurrentCodeMediumBlueA100: #6eb0ff;    
+$colorPalettesCurrentCodeMediumBlueA200: #3b93ff;    
+$colorPalettesCurrentCodeMediumBlue400: #0877ff;    
+$colorPalettesCurrentCodeMediumBlueA700: #006bee;    
+$colorPalettesCurrentCodeMediumBlueContrast50: #000000;    
+$colorPalettesCurrentCodeMediumBlueContrast100: #000000;    
+$colorPalettesCurrentCodeMediumBlueContrast200: #000000;    
+$colorPalettesCurrentCodeMediumBlueContrast300: #ffffff;    
+$colorPalettesCurrentCodeMediumBlueContrast400: #ffffff;    
+$colorPalettesCurrentCodeMediumBlueContrast500: #ffffff;    
+$colorPalettesCurrentCodeMediumBlueContrast600: #ffffff;    
+$colorPalettesCurrentCodeMediumBlueContrast700: #ffffff;    
+$colorPalettesCurrentCodeMediumBlueContrast800: #ffffff;    
+$colorPalettesCurrentCodeMediumBlueContrast900: #ffffff;    
+$colorPalettesCurrentCodeMediumBlueContrastA100: #000000;    
+$colorPalettesCurrentCodeMediumBlueContrastA200: #000000;    
+$colorPalettesCurrentCodeMediumBlueContrastA400: #ffffff;    
+$colorPalettesCurrentCodeMediumBlueContrastA700: #ffffff;    
+$colorPalettesCurrentCodeMentholBlue50: #edf3f3;    
+$colorPalettesCurrentCodeMentholBlue100: #d2e2e1;    
+$colorPalettesCurrentCodeMentholBlue200: #b5cfce;    
+$colorPalettesCurrentCodeMentholBlue300: #97bcba;    
+$colorPalettesCurrentCodeMentholBlue400: #80adab;    
+$colorPalettesCurrentCodeMentholBlue500: #6a9f9c;    
+$colorPalettesCurrentCodeMentholBlue600: #629794;    
+$colorPalettesCurrentCodeMentholBlue700: #578d8a;    
+$colorPalettesCurrentCodeMentholBlue800: #4d8380;    
+$colorPalettesCurrentCodeMentholBlue900: #3c726e;    
+$colorPalettesCurrentCodeMentholBlueA100: #c6fffb;    
+$colorPalettesCurrentCodeMentholBlueA200: #93fff7;    
+$colorPalettesCurrentCodeMentholBlueA400: #60fff3;    
+$colorPalettesCurrentCodeMentholBlueA700: #47fff2;    
+$colorPalettesCurrentCodeMentholBlueContrast50: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrast100: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrast200: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrast300: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrast400: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrast500: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrast600: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrast700: #ffffff;    
+$colorPalettesCurrentCodeMentholBlueContrast800: #ffffff;    
+$colorPalettesCurrentCodeMentholBlueContrast900: #ffffff;    
+$colorPalettesCurrentCodeMentholBlueContrastA100: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrastA200: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrastA400: #000000;    
+$colorPalettesCurrentCodeMentholBlueContrastA700: #000000;    
+$colorPalettesCurrentCodeOrange50: #fef1e0;    
+$colorPalettesCurrentCodeOrange100: #fbdcb3;    
+$colorPalettesCurrentCodeOrange200: #f9c580;    
+$colorPalettesCurrentCodeOrange300: #f7ad4d;    
+$colorPalettesCurrentCodeOrange400: #f59c26;    
+$colorPalettesCurrentCodeOrange500: #f38a00;    
+$colorPalettesCurrentCodeOrange600: #f18200;    
+$colorPalettesCurrentCodeOrange700: #ef7700;    
+$colorPalettesCurrentCodeOrange800: #ed6d00;    
+$colorPalettesCurrentCodeOrange900: #ea5a00;    
+$colorPalettesCurrentCodeOrangeA100: #ffffff;    
+$colorPalettesCurrentCodeOrangeA200: #ffe8de;    
+$colorPalettesCurrentCodeOrangeA400: #ffc6ab;    
+$colorPalettesCurrentCodeOrangeA700: #ffb491;    
+$colorPalettesCurrentCodeOrangeContrast50: #000000;    
+$colorPalettesCurrentCodeOrangeContrast100: #000000;    
+$colorPalettesCurrentCodeOrangeContrast200: #000000;    
+$colorPalettesCurrentCodeOrangeContrast300: #000000;    
+$colorPalettesCurrentCodeOrangeContrast400: #000000;    
+$colorPalettesCurrentCodeOrangeContrast500: #ffffff;    
+$colorPalettesCurrentCodeOrangeContrast600: #000000;    
+$colorPalettesCurrentCodeOrangeContrast700: #000000;    
+$colorPalettesCurrentCodeOrangeContrast800: #000000;    
+$colorPalettesCurrentCodeOrangeContrast900: #ffffff;    
+$colorPalettesCurrentCodeOrangeContrastA100: #000000;    
+$colorPalettesCurrentCodeOrangeContrastA200: #000000;    
+$colorPalettesCurrentCodeOrangeContrastA400: #000000;    
+$colorPalettesCurrentCodeOrangeContrastA700: #000000;    
+$colorPalettesCurrentCodeRed50: #fce0e9;    
+$colorPalettesCurrentCodeRed100: #f7b3c9;    
+$colorPalettesCurrentCodeRed200: #f180a5;    
+$colorPalettesCurrentCodeRed300: #eb4d80;    
+$colorPalettesCurrentCodeRed400: #e72665;    
+$colorPalettesCurrentCodeRed500: #e3004a;    
+$colorPalettesCurrentCodeRed600: #e00043;    
+$colorPalettesCurrentCodeRedA100: #fff8f9;    
+$colorPalettesCurrentCodeRedA200: #ffc5cb;    
+$colorPalettesCurrentCodeRedA400: #ff929d;    
+$colorPalettesCurrentCodeRedA700: #ff7987;    
+$colorPalettesCurrentCodeRedContrast50: #000000;    
+$colorPalettesCurrentCodeRedContrast100: #000000;    
+$colorPalettesCurrentCodeRedContrast200: #000000;    
+$colorPalettesCurrentCodeRedContrast300: #000000;    
+$colorPalettesCurrentCodeRedContrast400: #ffffff;    
+$colorPalettesCurrentCodeRedContrast500: #ffffff;    
+$colorPalettesCurrentCodeRedContrast600: #ffffff;    
+$colorPalettesCurrentCodeRedContrast700: #ffffff;    
+$colorPalettesCurrentCodeRedContrast900: #ffffff;    
+$colorPalettesCurrentCodeRedContrastA100: #000000;    
+$colorPalettesCurrentCodeRedContrastA200: #000000;    
+$colorPalettesCurrentCodeRedContrastA400: #000000;    
+$colorPalettesCurrentCodeRedContrastA700: #000000;    
+$colorPalettesCurrentCodeSicpaBlue50: #e1e7eb;    
+$colorPalettesCurrentCodeSicpaBlue100: #b3c4ce;    
+$colorPalettesCurrentCodeSicpaBlue200: #819dad;    
+$colorPalettesCurrentCodeSicpaBlue300: #4f768c;    
+$colorPalettesCurrentCodeSicpaBlue400: #295873;    
+$colorPalettesCurrentCodeSicpaBlue500: #033b5a;    
+$colorPalettesCurrentCodeSicpaBlue600: #033552;    
+$colorPalettesCurrentCodeSicpaBlue700: #022d48;    
+$colorPalettesCurrentCodeSicpaBlue800: #02263f;    
+$colorPalettesCurrentCodeSicpaBlue900: #01192e;    
+$colorPalettesCurrentCodeSicpaBlueA100: #67a7ff;    
+$colorPalettesCurrentCodeSicpaBlueA200: #3489ff;    
+$colorPalettesCurrentCodeSicpaBlueA400: #016bff;    
+$colorPalettesCurrentCodeSicpaBlueA700: #0061e6;    
+$colorPalettesCurrentCodeSicpaBlueContrast50: #000000;    
+$colorPalettesCurrentCodeSicpaBlueContrast100: #000000;    
+$colorPalettesCurrentCodeSicpaBlueContrast200: #000000;    
+$colorPalettesCurrentCodeSicpaBlueContrast300: #ffffff;    
+$colorPalettesCurrentCodeSicpaBlueContrast400: #ffffff;    
+$colorPalettesCurrentCodeSicpaBlueContrast500: #ffffff;    
+$colorPalettesCurrentCodeSicpaBlueContrast600: #ffffff;    
+$colorPalettesCurrentCodeSicpaBlueContrast700: #ffffff;    
+$colorPalettesCurrentCodeSicpaBlueContrast800: #ffffff;    
+$colorPalettesCurrentCodeSicpaBlueContrast900: #ffffff;    
+$colorPalettesCurrentCodeSicpaBlueContrastA100: #000000;    
+$colorPalettesCurrentCodeSicpaBlueContrastA200: #000000;    
+$colorPalettesCurrentCodeSicpaBlueContrastA400: #ffffff;    
+$colorPalettesCurrentCodeSicpaBlueContrastA700: #ffffff;    
+$colorPalettesCurrentCodeWhite500: #ffffff;    
+$colorPalettesCurrentCodeWhiteContrast500: #000000de;    
+$color09StatesPrimaryHover: #0087c80a;    
+$color09StatesPrimaryFocused: #0087c81f;    
+/* Default page background color */
+$colorGlobalBackground: #ffffff;    
+/* Primary text
+Body copy
+Hover text color for $text-secondary */
+$colorGlobalTextPrimary: #525556;    
+/* Disabled text color */
+$colorGlobalTextDisabled: #cfd1d3;    
+/* Primary icons */
+$colorGlobalIconPrimary: #525556;    
+/* Disabled icons */
+$colorGlobalIconDisabled: #a0a5a9;    
+/* Container color on $layer-01 */
+$colorLayerLayer02: #ffffff;    
